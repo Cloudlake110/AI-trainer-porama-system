@@ -200,7 +200,7 @@ const App: React.FC = () => {
       id: 4,
       title: "Python 视觉引擎",
       category: "基础夯实 / Foundation",
-      description: "通过物理隐喻（传送带、开关）将 Python 抽象概念可视化。这是你成为训练师的第一步。",
+      description: "通过物理隐喻可视化代码逻辑，让零基础也能直观掌握编程思维。",
       icon: Eye,
       href: "https://python-vision-engine-v1-2.vercel.app/"
     },
@@ -208,7 +208,7 @@ const App: React.FC = () => {
       id: 1,
       title: "备考指挥中枢 v3.0",
       category: "战术规划 / Strategy",
-      description: "输入你的剩余时间和基础，智能生成量化作战路线图。不打无准备之仗。",
+      description: "根据个人基础与时间，智能生成量化备考计划，不打无准备之仗。",
       icon: BrainCircuit,
       href: "https://dynamic-plan-generator-v3-0.vercel.app/"
     },
@@ -216,7 +216,7 @@ const App: React.FC = () => {
       id: 2,
       title: "全景实战图谱",
       category: "全局视野 / Map",
-      description: "重组考试知识点，提供上帝视角。清晰掌握每一个考点的权重与联系。",
+      description: "上帝视角重组考点，清晰展示知识权重与联系，一张图掌握全书。",
       icon: Map,
       href: "https://ai-trainer-comprehensive-practical.vercel.app/"
     },
@@ -224,7 +224,7 @@ const App: React.FC = () => {
       id: 3,
       title: "代码医生 (Code Doctor)",
       category: "问题诊断 / Debug",
-      description: "AI 驱动的报错分析工具。不仅告诉你错了，还用可视化链路展示为什么错。",
+      description: "AI深度诊断报错代码，可视化展示错误链路，知其然更知其所以然。",
       icon: Stethoscope,
       href: "https://code-docter-eight.vercel.app/"
     },
@@ -232,7 +232,7 @@ const App: React.FC = () => {
       id: 5,
       title: "核心函数实验室",
       category: "深度交互 / Lab",
-      description: "30+ 核心函数动态演示。让抽象的数据处理逻辑在你眼前“活”起来。",
+      description: "30+核心函数动态演示，让抽象的数据处理逻辑在你眼前生动呈现。",
       icon: FlaskConical,
       href: "https://function-lab-delta.vercel.app/"
     }
@@ -251,7 +251,7 @@ const App: React.FC = () => {
            <div className="p-1.5 bg-tech-primary/20 rounded-lg">
              <Cpu className="w-5 h-5 text-tech-primary" />
            </div>
-           <span className="font-bold tracking-tight text-sm md:text-base">AI Trainer System <span className="text-xs text-gray-500 font-normal ml-2 hidden sm:inline-block">/ Portal</span></span>
+           <span className="font-bold tracking-tight text-sm md:text-base">AI Trainer System</span>
         </div>
         <div className="flex items-center gap-4">
            <div className="hidden md:flex items-center gap-2 text-xs font-mono text-gray-500">
@@ -268,7 +268,7 @@ const App: React.FC = () => {
         </div>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-white via-gray-100 to-gray-500 mb-6 drop-shadow-sm tracking-tight leading-tight">
           高级人工智能训练师<br/>
-          <span className="text-3xl md:text-5xl text-white/40 font-light mt-2 block">备考辅助系统门户</span>
+          <span className="text-3xl md:text-5xl text-white/40 font-light mt-2 block">备考辅助系统</span>
         </h1>
         <p className="max-w-2xl mx-auto text-gray-400 text-lg md:text-xl font-light leading-relaxed">
           全新的可视化学习理念，预计为您节省 <span className="text-tech-accent font-semibold border-b border-tech-accent/30 pb-0.5">80%</span> 的备考时间。
