@@ -226,7 +226,7 @@ const App: React.FC = () => {
       category: "问题诊断 / Debug",
       description: "AI深度诊断报错代码，可视化展示错误链路，知其然更知其所以然。",
       icon: Stethoscope,
-      href: "https://code-docter-eight.vercel.app/"
+      href: "https://copy-of-doctor-q4rv.vercel.app/"
     },
     {
       id: 5,
